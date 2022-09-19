@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <h1>#todo</h1>
+                <div class="filter-content">
+                    <button class="btn filters btn-active" id="all">All</button>
+                    <button class="btn filters" id="active">Active</button>
+                    <button class="btn filters" id="completed">Completed</button>
+                </div>
+                <div class="content">
+                    <div class="input-container" id="inputContainer">
+                        <input type="text" id="inputTask" placeholder="add details">
+                        <button class="btn btn-blue" id="btnAddTask">Add</button>
+                    </div>
+                    <ul id="todoContainer">
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
